@@ -229,12 +229,6 @@ public class ProductsControllerTests
         _mockUseCase.Setup(useCase => useCase.InvokeAsync(product, _token))
             .Returns(Task.CompletedTask);
         
-        /*
-        _mockService.Setup(service => service
-                .AddProductAsync(product, _token))
-            .Returns(Task.CompletedTask);
-        */
-        
         // Act
         var result = await _controller.Create(product, _token);
 
@@ -244,8 +238,6 @@ public class ProductsControllerTests
         Assert.Equal("Index", redirectToActionResult.ActionName);
         Assert.Equal("¡Producto creado exitosamente!", _controller.TempData["message"]);
         
-        _mockService.Verify(service => service
-            .AddProductAsync(product, _token), Times.Once);
     }
 }
 

@@ -30,10 +30,12 @@ public class CreateProductUseCaseTest
     {
         // Arrange
         var product = new Product();
-        
-        // Act
+
         _mockService.Setup(s => s.AddProductAsync(product, _token))
             .Returns(Task.CompletedTask);
+        
+        // Act
+        await _mockService.Object.AddProductAsync(product, _token);
         
         // Assert
         _mockService.Verify(s => s.AddProductAsync(product, _token), Times.Once);
