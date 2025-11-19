@@ -10,7 +10,12 @@ namespace Application.UseCases;
 public class CreateProductUseCase : ICreateProductUseCase
 {
 
-    private IProductService productService;
+    private IProductService _productService;
+
+    public CreateProductUseCase(IProductService productService)
+    {
+        this._productService = productService;
+    }
 
     /// <summary>
     /// 
@@ -18,6 +23,6 @@ public class CreateProductUseCase : ICreateProductUseCase
     /// <returns></returns>
     public async Task InvokeAsync(Product product, CancellationToken cancellationToken)
     {
-        await productService.AddProductAsync(product, cancellationToken);
+        await _productService.AddProductAsync(product, cancellationToken);
     }
 }
