@@ -3,7 +3,7 @@
 
 # Plantilla de Arquitectura Empresarial en .NET
 
-Una base arquitectónica robusta y de nivel empresarial, impulsada por Arquitectura Limpia, con componentes .NET modulares, escalables y completamente testeables — diseñada por [Luis López](https://github.com/luislopez-dev).
+Una base arquitectónica robusta impulsada por la Arquitectura Limpia, con componentes .NET modulares, escalables y completamente testeables — diseñada por [Luis López](https://github.com/luislopez-dev).
 
 
 # Tabla de contenidos
