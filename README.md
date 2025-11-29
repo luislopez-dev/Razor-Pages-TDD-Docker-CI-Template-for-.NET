@@ -1,7 +1,7 @@
 **Languages:**  
 [🇬🇧 English](README.md) | [🇬🇹 Español](README.es.md)
 
-## Plantilla Razor Pages TDD Docker & CI Para .NET
+## Plantilla de Razor Pages TDD Docker & CI Para .NET
 
 ## Visión general
 Este proyecto funciona como una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
