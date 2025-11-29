@@ -1,14 +1,24 @@
 **Languages:**  
-[🇺🇸 English](README.md) | [🇬🇹 Español](README.es.md)
+[🇬🇧 English](README.md) | [🇬🇹 Español](README.es.md)
 
-# Enterprise .NET Architecture Template
+## Enterprise .NET Architecture Template
 
-Project Under Construction
+## Overview
+This project serves as a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
 
-This project is currently under active development.
-I am making adjustments, improvements, and fixes to deliver a stable version soon.
+## Development Approach
+The solution follows a TDD-oriented workflow. It includes unit and integration tests that help validate key components and ensure code quality from early stages. The intention is to support safer and more predictable development cycles.
 
-### Crafted and maintained by [Luis López](https://github.com/luislopez-dev)
+## Continuous Integration
+The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. This helps maintain a steady development pace while reducing regressions on each commit or pull request.
 
+## Runtime Environment
+To simplify setup and ensure consistency across environments, the project uses Docker Compose. The configuration includes support for SQL Server, allowing you to easily replicate a realistic database environment for both development and testing.
 
+## YouTube Video
+For a short demonstration, I recorded the following video:
 
+[Watch on YouTube](https://youtu.be/xxxxxx)
+
+## Future Considerations
+Although the project already provides a practical and functional foundation, the future may include the possibility of adopting a more complete clean architecture and introducing DDD principles if needed to handle more complex scenarios.
