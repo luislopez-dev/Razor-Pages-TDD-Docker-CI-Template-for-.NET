@@ -10,7 +10,7 @@ This project serves as a solid foundation for building web applications with Raz
 The solution follows a TDD-oriented workflow. It includes unit and integration tests that help validate key components and ensure code quality from early stages. The intention is to support safer and more predictable development cycles.
 
 ## Continuous Integration
-The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. This helps maintain a steady development pace while reducing regressions on each commit or pull request.
+The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. 
 
 ## Runtime Environment
 To simplify setup and ensure consistency across environments, the project uses Docker Compose. The configuration includes support for SQL Server, allowing you to easily replicate a realistic database environment for both development and testing.
