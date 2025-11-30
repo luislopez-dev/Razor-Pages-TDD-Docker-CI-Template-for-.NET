@@ -1,8 +1,7 @@
 **Languages:**  
 [🌎 English](README.en.md) | [🇬🇹 Español](README.md)
 
-## Enterprise Template for apps 
-in .NET and Razor Pages
+## Enterprise Template for apps in .NET and Razor Pages
 
 ## Overview
 This project serves as a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
