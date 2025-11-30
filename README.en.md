@@ -6,7 +6,7 @@
 ## Overview
 This project serves as a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
 
-<img width="578" height="440" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/bfacd2e6-cab0-42f5-8b84-bf46fb2ac70c" />
+<img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
 
 ## Development Approach
 The solution follows a TDD-oriented workflow. It includes unit and integration tests that help validate key components and ensure code quality from early stages. The intention is to support safer and more predictable development cycles.
