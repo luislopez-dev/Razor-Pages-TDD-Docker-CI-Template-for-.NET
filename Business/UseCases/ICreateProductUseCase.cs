@@ -1,3 +1,4 @@
+using Business.Entities;
 using Business.Models;
 
 namespace Business.UseCases;

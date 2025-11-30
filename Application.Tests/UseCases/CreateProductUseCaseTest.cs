@@ -1,13 +1,5 @@
-/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open Source Project
- */
-
-using Business.Interfaces;
-using Business.Models;
-using FluentValidation;
-using FluentValidation.Results;
+using Business.Entities;
+using Business.Services;
 using Moq;
 
 namespace Application.Tests.UseCases;
@@ -46,9 +38,3 @@ public class CreateProductUseCaseTest
         _mockService.Verify(s => s.AddProductAsync(product, _token), Times.Once);
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open Source Project
- */

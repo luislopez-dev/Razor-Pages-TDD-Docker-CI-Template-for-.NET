@@ -1,4 +1,4 @@
-﻿namespace Business.Tests.Services;
+﻿namespace Application.Tests.Services;
 
 /// <summary>
 /// UNIT TEST responsible for testing INVOICE SERVICE

@@ -1,13 +1,12 @@
 ﻿using Application.Repositories;
 using Application.Services;
-using Business.Interfaces;
-using Business.Models;
+using Business.Entities;
 using Business.Services;
 using FluentValidation;
 using FluentValidation.Results;
 using Moq;
 
-namespace Business.Tests.Services;
+namespace Application.Tests.Services;
 
 /// <summary>
 /// UNIT TEST responsible for testing PRODUCT SERVICE

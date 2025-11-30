@@ -1,13 +1,15 @@
-﻿/*
- * Author: Luis René López
- * Website: https://github.com/luislopez-dev
- * Description: Open source Project
- */
+﻿using Business.Models;
 
-using Business.Models;
+namespace Business.Services;
 
-namespace Business.Interfaces;
-
+/// <summary>
+/// INVOICE SERVICE INTERFACE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public interface IInvoiceService
 {
     public Task AddInvoiceAsync(Invoice invoice, int[] selectedProducts, CancellationToken cancellationToken);

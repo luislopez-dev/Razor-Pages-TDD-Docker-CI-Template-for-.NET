@@ -1,13 +1,15 @@
-﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿using Business.Entities;
 
-using Business.Models;
+namespace Business.Services;
 
-namespace Business.Interfaces;
-
+/// <summary>
+/// PRODUCT SERVICE INTERFACE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Open source project: Enterprise-.Net-Architecture-Template
+/// </remarks>
 public interface IProductService
 {
     public Task AddProductAsync(Product product, CancellationToken cancellationToken);

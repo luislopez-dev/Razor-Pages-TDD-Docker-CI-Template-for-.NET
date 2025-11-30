@@ -1,5 +1,6 @@
-using Business.Interfaces;
+using Business.Entities;
 using Business.Models;
+using Business.Services;
 using Business.UseCases;
 
 namespace Application.UseCases;

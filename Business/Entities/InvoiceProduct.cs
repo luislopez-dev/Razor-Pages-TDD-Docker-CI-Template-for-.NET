@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Business.Models;
 
-namespace Business.Models;
+namespace Business.Entities;
 
 /// <summary>
 /// Invoice Product Entity

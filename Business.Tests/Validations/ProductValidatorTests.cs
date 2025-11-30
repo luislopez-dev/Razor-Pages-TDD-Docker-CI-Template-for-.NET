@@ -1,4 +1,4 @@
-﻿using Business.Models;
+﻿using Business.Entities;
 using Business.Validations;
 
 namespace Business.Tests.Validations;

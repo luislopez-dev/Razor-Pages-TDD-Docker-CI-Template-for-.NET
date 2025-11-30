@@ -1,6 +1,5 @@
 ﻿using Application.Repositories;
-using Business.Interfaces;
-using Business.Models;
+using Business.Entities;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;

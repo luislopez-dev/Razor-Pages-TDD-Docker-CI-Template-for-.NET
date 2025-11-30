@@ -1,4 +1,5 @@
-﻿using Business.Models;
+﻿using Business.Entities;
+using Business.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data;

@@ -1,5 +1,5 @@
-﻿using Business.Interfaces;
-using Business.Models;
+﻿using Business.Entities;
+using Business.Services;
 using Business.UseCases;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
