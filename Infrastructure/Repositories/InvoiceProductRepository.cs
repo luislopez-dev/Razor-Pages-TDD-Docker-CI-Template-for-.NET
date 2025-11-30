@@ -42,9 +42,3 @@ internal class InvoiceProductRepository : IInvoiceProductRepository
         }
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

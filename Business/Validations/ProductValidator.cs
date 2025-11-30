@@ -5,7 +5,7 @@ using FluentValidation;
 namespace Business.Validations;
 
 /// <summary>
-/// VALIDATION CLASS FOR PRODUCTS
+/// VALIDATIONS FOR PRODUCTS
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
@@ -38,9 +38,3 @@ public class ProductValidator: AbstractValidator<Product> {
     }
     
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

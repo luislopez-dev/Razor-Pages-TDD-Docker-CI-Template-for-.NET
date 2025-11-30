@@ -23,9 +23,3 @@ public class Invoice
     
     public List<InvoiceProduct> InvoiceProducts { get; set; } = new List<InvoiceProduct>();
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

@@ -4,7 +4,7 @@ using FluentValidation;
 namespace Business.Validations;
 
 /// <summary>
-/// VALIDATION CLASS FOR INVOICES
+/// VALIDATIONS FOR INVOICES
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
@@ -36,9 +36,3 @@ public class InvoiceValidator: AbstractValidator<Invoice>
             .InclusiveBetween(0, 1000000).WithMessage("¡La cifra del total en la factura debe estar entre 0 y un millón!");
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

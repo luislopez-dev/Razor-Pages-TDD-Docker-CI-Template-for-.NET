@@ -37,9 +37,3 @@ public class UnitOfWork: IUnitOfWork
         return _context.Database.BeginTransaction();
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

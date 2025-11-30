@@ -229,9 +229,3 @@ public class ProductServiceTests
                 .GetProductsByNamePaginated(name, cancellationToken));
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */

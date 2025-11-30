@@ -36,9 +36,3 @@ public class DataContext: DbContext
             .HasForeignKey(o => o.ProductId);
     }
 }
-
-/*
- ** Author: Luis René López
- ** Website: https://github.com/luislopez-dev
- ** Description: Open source Project
- */
