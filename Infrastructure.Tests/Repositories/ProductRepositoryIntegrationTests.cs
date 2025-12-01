@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Infrastructure.Tests.Repositories;
 
 /// <summary>
-/// INTEGRATIONA TEST responsible for testing PRODUCT REPOSITORY
+/// INTEGRATION TEST responsible for testing PRODUCT REPOSITORY
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
