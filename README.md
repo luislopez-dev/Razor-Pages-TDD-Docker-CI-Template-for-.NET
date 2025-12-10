@@ -23,6 +23,6 @@ For a short demonstration, I recorded the following video:
 [Watch on YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
 ## Future Considerations
-Although the project already provides a practical and functional foundation, the future may include the possibility of refactoring the application layer, adopting more clean architecture principles and introducing DDD practices if needed to handle more complex scenarios.
+Although the project already provides a practical and functional foundation, the future may include the possibility of refactoring the application layer, adding more business logic, adopting more clean architecture principles and introducing DDD practices to handle more complex scenarios.
 
 ## Project created and maintained by [Luis López](https://github.com/luislopez-dev)
