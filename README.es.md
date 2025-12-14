@@ -3,13 +3,13 @@
 
 ## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
 
-## Visión general
-Este proyecto funciona como una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
+## Instroducción
+Este proyecto proporciona una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
 
 <img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
 
 ## Enfoque de desarrollo
-La solución sigue un flujo de trabajo orientado a TDD. Incluye pruebas unitarias y de integración que ayudan a validar los componentes clave y garantizar la calidad del código desde etapas tempranas. La intención es favorecer ciclos de desarrollo más seguros y predecibles.
+La solución sigue un flujo de trabajo orientado a TDD, incorporando pruebas unitarias y de integración para validar los componentes clave y garantizar la calidad del código desde las primeras etapas del desarrollo. Además, se implementan pruebas end-to-end utilizando Selenium para verificar flujos críticos de usuario en un entorno de navegador real. Este enfoque ayuda a respaldar ciclos de desarrollo más seguros, predecibles y confiables.
 
 ## Integración continua
 El repositorio incluye un pipeline de CI configurado con GitHub Actions. Este flujo automatiza la ejecución de pruebas y verifica que cada cambio cumpla con los estándares definidos.

@@ -50,7 +50,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test --configuration Release --no-build --logger trx --collect:"XPlat Code Coverage"
+        run: dotnet test --configuration Release --no-build --logger trx --collect:"XPlat Code Coverage" --filter "Category!=E2E
 
       - name: Setup Docker Buildx
         uses: docker/setup-buildx-action@v1

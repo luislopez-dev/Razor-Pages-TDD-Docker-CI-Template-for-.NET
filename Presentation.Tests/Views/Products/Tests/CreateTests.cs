@@ -1,16 +1,18 @@
 ﻿
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
 using Presentation.Tests.Views.Products.Pages;
-using System;
 
 namespace Presentation.Tests.Views.Products.Tests;
 
-public class CreateTests {
-    
-}
-/*
+/// <summary>
+///  E2E TESTS FOR CREATE PRODUCT PAGE
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev  
+/// </remarks>
+[Trait("Category", "E2E")]
 public class CreateTests : IDisposable
 {
     private readonly IWebDriver _driver;
@@ -18,10 +20,8 @@ public class CreateTests : IDisposable
 
     public CreateTests()
     {
-        var seleniumUrl = Environment
-            .GetEnvironmentVariable("SELENIUM__URL") ?? "http://localhost:4444/wd/hub";
         var options = new ChromeOptions();
-        _driver = new RemoteWebDriver(new Uri(seleniumUrl), options);
+        _driver = new ChromeDriver(options);
         _createPage = new CreatePage(_driver);
         _createPage.Navigate();
     }
@@ -32,12 +32,6 @@ public class CreateTests : IDisposable
     {
         Assert.Equal("Crear Producto", _createPage.Title);
     }
-
-    // [Fact]
-    // public void Create_WrongModelData_ReturnErrorMessage()
-    // {
-    //     
-    // }
 
     [Fact]
     public void Create_WhenSuccessfullyExecuted_ReturnsIndexViewWithNewProduct()
@@ -59,4 +53,3 @@ public class CreateTests : IDisposable
         _driver.Dispose();
     }    
 }
-*/
