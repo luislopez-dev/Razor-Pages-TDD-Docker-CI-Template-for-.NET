@@ -10,7 +10,7 @@ This project provides a solid foundation for building web applications with Razo
 
 ## Structure
 
-**Business**: Contains the core domain rules.
+**Business**: Contains the core business rules.
 
 **Application**: Defines the application services and coordinates communication between the presentation layer and the business logic.
 

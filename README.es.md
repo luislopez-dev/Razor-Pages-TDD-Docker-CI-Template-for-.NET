@@ -10,7 +10,7 @@ Este proyecto proporciona una base sólida para construir aplicaciones web con R
 
 ## Estructura
 
-**Business**: Incluye las reglas y comportamientos principales del dominio.  
+**Business**: Incluye las reglas y comportamientos principales del negocio.  
 
 **Application**: Define los servicios y coordina la comunicación entre la presentación y la lógica de negocio.  
 
