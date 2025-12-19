@@ -1,6 +1,3 @@
-**Languages:**  
-[🇬🇹 Español](README.es.md) | [🌎 English](README.md)
-
 # **Enterprise Template for apps in .NET and Razor Pages**
 # <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
 
@@ -21,6 +18,8 @@ This layer will be renamed to Domain in future updates when DDD principles are i
 ### Application
 
 Defines the application services and coordinates communication between the presentation layer and the business logic.
+
+These services might be refactored into individual use cases in future updates.
 
 ### Infrastructure
 
