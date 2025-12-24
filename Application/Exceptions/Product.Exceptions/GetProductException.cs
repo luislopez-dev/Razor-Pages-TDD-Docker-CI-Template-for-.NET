@@ -1,15 +1,14 @@
-﻿namespace Business.Exceptions;
-
+﻿namespace Application.Exceptions.Product.Exceptions;
 
 /// <summary>
-/// BASE EXCEPTION FOR BUSINESS LAYER
+/// EXCEPTION FOR GETTING PRODUCT
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
 /// Description: Open source project: Enterprise-.Net-Architecture-Template
 /// </remarks>
-public class BusinessException: Exception
+public class GetProductException: BusinessException
 {
     
 }

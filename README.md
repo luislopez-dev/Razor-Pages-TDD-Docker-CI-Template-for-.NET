@@ -3,35 +3,40 @@
 
 ## Introduction
 
-This project provides a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
+This project provides a solid foundation for building web applications with integrated DevOps tools out of the box. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
 
 ## Structure
 
-<img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
 
-### Business
+### Domain
 
 <strong>Contains the core business rules.</strong>
 
-This layer will be renamed to Domain in future updates when DDD principles are introduced into the project.
+The adoption of DDD principles for this layer is currently being evaluated for a potential update.
 
 ### Application
 
 <strong>Defines the application services and coordinates communication between the presentation layer and the business logic.</strong>
 
-The services in this project might be refactored into individual use cases in future updates.
+The services in this project might be refactored into individual use cases, 
+and the whole layer might be refactored with a Vertical-Slice approach in future updates.
+
+Integrating DTOs is on the roadmap for a future release.
 
 ### Infrastructure
 
 <strong>Implements technical details such as data access and external services.</strong>
 
-The repositories in this template will likely be refactored through a generic repository in the future.
+The repositories in this template could be refactored through a generic repository in the future.
 
 ### Presentation
 
-Contains the Razor Pages and <strong> the logic that handles user interaction.</strong> 
+Contains the Razor Pages and <strong> the logic that handles user interaction.</strong>
 
-Blazor components is currently under consideration for a possible upcoming update.
+
+## Business Logic
+
+This project emulates an inventory and billing management system.
 
 ## Development Approach
 The solution follows a TDD-oriented workflow, incorporating unit and integration tests to validate key components and ensure code quality from the early stages of development. In addition, end-to-end tests are implemented using Selenium to verify critical user flows in a real browser environment.

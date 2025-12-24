@@ -1,7 +1,7 @@
-﻿using Business.Models;
+﻿using Domain.Entities;
 using FluentValidation;
 
-namespace Business.Validations;
+namespace Application.Validations;
 
 /// <summary>
 /// VALIDATIONS FOR INVOICES

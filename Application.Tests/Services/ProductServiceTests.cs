@@ -1,7 +1,7 @@
 ﻿using Application.Interfaces;
 using Application.Repositories;
 using Application.Services;
-using Business.Entities;
+using Domain.Entities;
 using FluentValidation;
 using FluentValidation.Results;
 using Moq;

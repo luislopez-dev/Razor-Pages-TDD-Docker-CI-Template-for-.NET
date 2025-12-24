@@ -23,28 +23,28 @@ jobs:
           dotnet-version: '10.0.x'
       
       - name: Restore dependencies for Presentation
-        run: dotnet restore "Presentation/Presentation.csproj"
+        run: dotnet restore "Src/Presentation/Presentation.csproj"
 
       - name: Restore dependencies for Application
-        run: dotnet restore "Application/Application.csproj"
+        run: dotnet restore "Src/Application/Application.csproj"
 
       - name: Restore dependencies for Infrastructure
-        run: dotnet restore "Infrastructure/Infrastructure.csproj"
+        run: dotnet restore "Src/Infrastructure/Infrastructure.csproj"
 
-      - name: Restore dependencies for Business
-        run: dotnet restore "Business/Business.csproj"
+      - name: Restore dependencies for Domain
+        run: dotnet restore "Src/Domain/Domain.csproj"
 
       - name: Restore dependencies for Presentation.Tests
-        run: dotnet restore "Presentation.Tests/Presentation.Tests.csproj"
+        run: dotnet restore "Tests/Presentation.Tests/Presentation.Tests.csproj"
 
       - name: Restore dependencies for Application.Tests
-        run: dotnet restore "Application.Tests/Application.Tests.csproj"
+        run: dotnet restore "Tests/Application.Tests/Application.Tests.csproj"
 
       - name: Restore dependencies for Infrastructure.Tests
-        run: dotnet restore "Infrastructure.Tests/Infrastructure.Tests.csproj"
+        run: dotnet restore "Tests/Infrastructure.Tests/Infrastructure.Tests.csproj"
 
-      - name: Restore dependencies for Business.Tests
-        run: dotnet restore "Business.Tests/Business.Tests.csproj"
+      - name: Restore dependencies for Domain.Tests
+        run: dotnet restore "Tests/Domain.Tests/Domain.Tests.csproj"
 
       - name: Build the project
         run: dotnet build --configuration Release --no-restore

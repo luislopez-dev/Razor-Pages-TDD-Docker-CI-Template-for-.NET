@@ -1,5 +1,5 @@
 ﻿
-using Business.Models;
+using Domain.Entities;
 
 namespace Application.Repositories;
 

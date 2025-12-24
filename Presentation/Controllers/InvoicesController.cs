@@ -1,7 +1,7 @@
-﻿using Application.Interfaces;
+﻿using Application.Exceptions.Invoice.Exceptions;
+using Application.Interfaces;
 using Application.Repositories;
-using Business.Exceptions.Invoice.Exceptions;
-using Business.Models;
+using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers;

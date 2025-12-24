@@ -1,14 +1,15 @@
-﻿namespace Business.Exceptions.Product.Exceptions;
+﻿
+namespace Application.Exceptions.Invoice.Exceptions;
 
 /// <summary>
-/// EXCEPTION FOR GETTING PRODUCT
+/// EXCEPTION FOR CREATING PRODUCTS
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
 /// Description: Open source project: Enterprise-.Net-Architecture-Template
 /// </remarks>
-public class GetProductException: BusinessException
+public abstract class CreateInvoiceException: BusinessException
 {
     
 }

@@ -1,6 +1,4 @@
-﻿using Business.Entities;
-
-namespace Business.Models;
+﻿namespace Domain.Entities;
 
 /// <summary>
 /// Invoice Model

@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 
-namespace Business.Exceptions.Invoice.Exceptions;
+namespace Application.Exceptions.Invoice.Exceptions;
 
 /// <summary>
 /// EXCEPTION FOR INVOICE VALIDATIONS

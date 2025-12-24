@@ -1,7 +1,7 @@
-﻿using Application.Interfaces;
+﻿using Application.Exceptions.Product.Exceptions;
+using Application.Interfaces;
 using Application.Repositories;
-using Business.Entities;
-using Business.Exceptions.Product.Exceptions;
+using Domain.Entities;
 using FluentValidation;
 using FluentValidation.Results;
 

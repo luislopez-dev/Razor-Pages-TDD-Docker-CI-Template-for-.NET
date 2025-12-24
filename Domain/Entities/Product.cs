@@ -1,4 +1,4 @@
-﻿namespace Business.Entities;
+﻿namespace Domain.Entities;
 
 /// <summary>
 /// Product Model

@@ -1,5 +1,5 @@
 ﻿using Application.Interfaces;
-using Business.Entities;
+using Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;

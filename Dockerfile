@@ -2,14 +2,14 @@ FROM docker pull mcr.microsoft.com/dotnet/sdk:9.0 AS build-env
 
 WORKDIR /app
 
-COPY ["Presentation/Presentation.csproj", "Presentation/"]
-COPY ["Application/Application.csproj", "Application/"]
-COPY ["Business/Business.csproj", "Business/"]
-COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+COPY ["Src/Presentation/Presentation.csproj", "Presentation/"]
+COPY ["Src/Application/Application.csproj", "Application/"]
+COPY ["Src/Domain/Domain.csproj", "Domain/"]
+COPY ["Src/Infrastructure/Infrastructure.csproj", "Infrastructure/"]
 
 RUN dotnet restore "Presentation/Presentation.csproj"
 RUN dotnet restore "Application/Application.csproj"
-RUN dotnet restore "Business/Business.csproj"
+RUN dotnet restore "Domain/Domain.csproj"
 RUN dotnet restore "Infrastructure/Infrastructure.csproj"
 
 COPY . ./

@@ -28,7 +28,7 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Business.Models.Invoice", b =>
+            modelBuilder.Entity("Domain.Models.Invoice", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -62,7 +62,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Invoices");
                 });
 
-            modelBuilder.Entity("Business.Models.InvoiceProduct", b =>
+            modelBuilder.Entity("Domain.Models.InvoiceProduct", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -85,7 +85,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("InvoiceProducts");
                 });
 
-            modelBuilder.Entity("Business.Models.Product", b =>
+            modelBuilder.Entity("Domain.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -113,15 +113,15 @@ namespace Infrastructure.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Business.Models.InvoiceProduct", b =>
+            modelBuilder.Entity("Domain.Models.InvoiceProduct", b =>
                 {
-                    b.HasOne("Business.Models.Invoice", "Invoice")
+                    b.HasOne("Domain.Models.Invoice", "Invoice")
                         .WithMany("InvoiceProducts")
                         .HasForeignKey("InvoiceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Business.Models.Product", "Product")
+                    b.HasOne("Domain.Models.Product", "Product")
                         .WithMany("InvoiceProducts")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -132,12 +132,12 @@ namespace Infrastructure.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Business.Models.Invoice", b =>
+            modelBuilder.Entity("Domain.Models.Invoice", b =>
                 {
                     b.Navigation("InvoiceProducts");
                 });
 
-            modelBuilder.Entity("Business.Models.Product", b =>
+            modelBuilder.Entity("Domain.Models.Product", b =>
                 {
                     b.Navigation("InvoiceProducts");
                 });

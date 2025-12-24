@@ -1,14 +1,15 @@
-﻿namespace Business.Exceptions.Product.Exceptions;
+﻿namespace Application.Exceptions;
+
 
 /// <summary>
-/// EXCEPTION FOR UPDATING PRODUCT
+/// BASE EXCEPTION FOR APPLICATION LAYER
 /// </summary>
 /// <remarks>
 /// Author: Luis López  
 /// GitHub: https://github.com/luislopez-dev
 /// Description: Open source project: Enterprise-.Net-Architecture-Template
 /// </remarks>
-public class UpdateProductException: BusinessException
+public class BusinessException: Exception
 {
     
 }

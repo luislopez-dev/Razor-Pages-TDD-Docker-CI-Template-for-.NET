@@ -1,7 +1,7 @@
 ﻿
+using Application.Exceptions.Product.Exceptions;
 using Application.Interfaces;
-using Business.Entities;
-using Business.Exceptions.Product.Exceptions;
+using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers;

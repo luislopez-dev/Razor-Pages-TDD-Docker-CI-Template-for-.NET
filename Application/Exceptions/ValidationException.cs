@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 
-namespace Business.Exceptions;
+namespace Application.Exceptions;
 
 /// <summary>
 /// BASE EXCEPTION FOR VALIDATIONS

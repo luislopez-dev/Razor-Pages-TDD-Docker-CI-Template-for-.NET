@@ -1,5 +1,5 @@
-﻿using Business.Entities;
-using Business.Validations;
+﻿using Domain.Entities;
+using Application.Validations;
 
 namespace Business.Tests.Validations;
 
