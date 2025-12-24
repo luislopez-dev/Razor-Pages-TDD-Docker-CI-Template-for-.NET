@@ -7,6 +7,7 @@ This project provides a solid foundation for building web applications with inte
 
 ## Structure
 
+<img width="502" height="666" alt="Project (1)" src="https://github.com/user-attachments/assets/7c53569d-2bdc-4fcb-b59a-54e94083838d" />
 
 ### Domain
 
