@@ -9,7 +9,7 @@ Some patterns like DTOs and isolated Use Cases were omitted due to time constrai
 
 ## Structure
 
-<img width="502" height="666" alt="Project (1)" src="https://github.com/user-attachments/assets/7c53569d-2bdc-4fcb-b59a-54e94083838d" />
+<img width="502" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/94f83562-dd4e-4bc9-b52b-e6d430d5940b" />
 
 ### Domain
 
