@@ -1,4 +1,4 @@
-# **Enterprise Software & DevOps Architecture in .NET**
+# **Software & DevOps Architecture Template in .NET**
 # <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
 
 ## Introduction
