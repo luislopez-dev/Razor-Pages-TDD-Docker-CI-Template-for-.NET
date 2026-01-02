@@ -10,7 +10,7 @@ I will continue to refine the project as time permits and based on the number of
 
 Some patterns like DTOs and isolated Use Cases were omitted due to time constraints. I’m archiving it as a structural reference.
 
-## Current Structure
+## Structure
 
 <img width="502" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/94f83562-dd4e-4bc9-b52b-e6d430d5940b" />
 
